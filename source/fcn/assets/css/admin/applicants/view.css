@@ -1,0 +1,28 @@
+
+.tableStyle dl{
+
+	width: 750px;
+	overflow: hidden; /*floatしたので高さ確保*/
+	border: 1px solid #e3e3e3;
+	border-top: none; /*dt,dd設定とかぶるので*/
+	background: #eee;
+}
+
+.tableStyle dl dt {
+	width: 160px;
+	float: left;
+	padding: 10px;
+	border-top: 1px solid #e3e3e3;
+	font-size: 15px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.tableStyle dl dd {
+	margin-left: 180px; 
+	padding: 10px;
+	font-size: 15px;
+	border-left: 1px solid #e3e3e3;
+	border-top: 1px solid #e3e3e3;
+	background: #fff;
+}
